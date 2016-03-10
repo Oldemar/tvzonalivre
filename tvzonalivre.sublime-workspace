@@ -431,6 +431,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Config/database.php",
+			"settings":
+			{
+				"buffer_size": 3193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Pages/home.ctp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/View/Layouts/default.ctp",
+			"settings":
+			{
+				"buffer_size": 2057,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -464,10 +488,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Library/WebServer/Documents/tvzonalivre"
+		"/Library/WebServer/Documents/tvzonalivre",
+		"/Library/WebServer/Documents/tvzonalivre/app",
+		"/Library/WebServer/Documents/tvzonalivre/app/View",
+		"/Library/WebServer/Documents/tvzonalivre/app/View/Layouts",
+		"/Library/WebServer/Documents/tvzonalivre/app/View/Pages"
 	],
 	"file_history":
 	[
+		"/Library/WebServer/Documents/tvzonalivre/app/Config/core.php",
 		"/Library/WebServer/Documents/csidaily/app/webroot/css/ConnServ_style.css",
 		"/Library/WebServer/Documents/csidaily/app/Config/database.php",
 		"/Users/bisenbek/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -594,8 +623,7 @@
 		"/Users/bisenbek/code/people-ticker45/lib/tickerservices.php",
 		"/Users/bisenbek/code/people-ticker45/webroot/cms/php/webroot/index_core_1.php",
 		"/Users/bisenbek/code/people-ticker45/webroot/cms/php/webroot/lib/session_static.php",
-		"/Users/bisenbek/code/people-ticker45/webroot/update_search.php",
-		"/Users/bisenbek/code/people-ticker45/webroot/cms/php/webroot/index_core.php"
+		"/Users/bisenbek/code/people-ticker45/webroot/update_search.php"
 	],
 	"find":
 	{
@@ -943,8 +971,96 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2844,
+								2844
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 749.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/View/Pages/home.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/View/Layouts/default.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1761,
+								1761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

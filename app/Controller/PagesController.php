@@ -37,6 +37,16 @@ class PagesController extends AppController {
  */
 	public $uses = array();
 
+
+/**
+ *
+ *
+ *
+ */
+	function beforeFilter() {
+		$this->Auth->Allow(array('display')); //This is used to allow users to navigate into the site without loggin in.	
+	}
+
 /**
  * Displays a view
  *
@@ -73,4 +83,9 @@ class PagesController extends AppController {
 			throw new NotFoundException();
 		}
 	}
+
+	public function main() {
+		
+	}
+
 }
